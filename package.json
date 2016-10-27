@@ -1,11 +1,10 @@
 {
   "name": "slush-cooking-vue-pages",
-  "version": "1.1.6",
+  "version": "0.1.0",
   "description": "A vue project template for cooking.",
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cookingjs/slush-cooking-vue.git"
+    "url": "git+https://github.com/cookingjs/slush-cooking-vue-pages.git"
   },
   "scripts": {},
   "keywords": [
@@ -13,12 +12,12 @@
     "vue",
     "slushgenerator"
   ],
-  "author": "qingwei-li <cinwell.li@gmail.com>",
+  "author": "Eleme FE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cookingjs/slush-cooking-vue/issues"
+    "url": "https://github.com/cookingjs/slush-cooking-vue-pages/issues"
   },
-  "homepage": "https://github.com/cookingjs/slush-cooking-vue#readme",
+  "homepage": "https://github.com/cookingjs/slush-cooking-vue-pages#readme",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1"

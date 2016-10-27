@@ -2,6 +2,7 @@
 
 
 dev:
+	mkdir -p build
 	gulp dev-html
 	./node_modules/.bin/webpack-dev-server --config configs/webpack.config.js --hot --inline
 

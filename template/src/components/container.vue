@@ -1,8 +1,9 @@
 
 <template>
   <div id="app">
-    <h1>Demo app</h1>
-    <p>Description here</p>
+    <h1><%= name %></h1>
+    <p><%= description %></p>
+
     <router-view class="view" />
   </div>
 </template>

@@ -75,7 +75,7 @@ gulp.task('default', function (done) {
     }
 
     gulp.src(filesPath, { dot: true })
-      .pipe(template(answers))
+      .pipe(template(answers, {interpolate: /<%=([\s\S]+?)%>/g}))
       .pipe(rename(function (file) {
         if (file.basename[0] === '_') {
           file.basename = '.' + file.basename.slice(1)
